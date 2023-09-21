@@ -1,53 +1,59 @@
-/*
-let x = 100;
-let message = x < 50 && x > 20 ? console.log("x is less than 50 but more than 20") : console.log("Mistake");
-*/
+// for(let i = 5; i < 100; i++){
+//     console.log(i)
+// }
 
 
-/*
-let x = 100;
 
-if(x < 50 && x > 20){
-    console.log("x is less than 50 but more than 20")
-}
-else{
-    console.log("Mistake")
-}
-*/
+// let array1 = [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];
+
+// for (let i = 0; i < array1.length; i++) {
+//     if (array1[i] > 0 && array1[i] < 10) {
+//         console.log(array1[i])
+//     }
+// }
 
 
-/*
-let firstName = "Mariam";
+
+// let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// for(let i = 0; i < array2.length; i++){
+//     if(array2[i] === 5) {
+//         console.log(true)
+//     }
+// }
 
 
-if(firstName === "Mariam") {
-    console.log(true)
-}
-else{
-    console.log(false)
-}
-*/
+
+// let array3= [1, 2, 3, 4, 5];
+// let sum = 0;
+
+// for(let i = 0; i < array3.length; i++){
+//     sum += array3[i]
+// }
+
+// console.log(sum)
 
 
-/*
-let firstName = "Mariam";
 
-switch (firstName) {
-    case "Mariami":
-        console.log(true);
-        break;
-    default: console.log(false);
-}
-*/
+// let array4 = [1, 2, 3, 7, 6, 9];
+// let sum = 0;
 
+// for(let i = 0; i < array4.length; i++){
+//     sum += array4[i]
+// }
 
-/*
-let firstName = "Irakli";
-console.log(typeof firstName);
-*/
+// console.log(sum / array4.length);
 
 
-/*
-let x = 10;
-console.log(x.toString());
-*/
+
+// let users = [
+//     { username: 'giorgi', status: false },
+//     { username: 'levani', status: false },
+//     { username: 'anna', status: true }
+// ]
+
+// for (let i = 0; i < users.length; i++) {
+//     if (users[i].status === true) {
+//         console.log(users[i])
+//     }
+// }
