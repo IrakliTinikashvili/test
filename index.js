@@ -1,59 +1,119 @@
-// for(let i = 5; i < 100; i++){
-//     console.log(i)
-// }
+// let arr = [5, 25, 89, 120, 36];
+// arr.push("javascript", "python");
+// arr.unshift("html", "css")
+// // console.log(arr.length)
+// arr.shift();
+// arr.pop();
+
+// console.log(arr)
 
 
 
-// let array1 = [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];
 
-// for (let i = 0; i < array1.length; i++) {
-//     if (array1[i] > 0 && array1[i] < 10) {
-//         console.log(array1[i])
-//     }
-// }
+// let arr = ["Orange", "Banana", "Pear"];
+// // console.log(arr.length)
+// arr.push("Apple", "Pineapple");
+// arr.unshift("Watermalon")
+// // console.log(arr.length)
+// arr.splice(2, 0, "Mango");
+// arr.shift();
+// arr.pop();
 
-
-
-// let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-// for(let i = 0; i < array2.length; i++){
-//     if(array2[i] === 5) {
-//         console.log(true)
-//     }
-// }
+// console.log(arr.length)
 
 
 
-// let array3= [1, 2, 3, 4, 5];
+
+// let array = [1, 2, 3, 4, 5];
+// array.splice(3, 0, "a", "b", "c")
+
+// console.log(array);
+
+
+
+
+// let arr = [1, 2, 3, 4, 5];
 // let sum = 0;
-
-// for(let i = 0; i < array3.length; i++){
-//     sum += array3[i]
-// }
+// let arr1 = arr.forEach(e => {
+//     return sum += e
+// })
 
 // console.log(sum)
 
 
 
-// let array4 = [1, 2, 3, 7, 6, 9];
-// let sum = 0;
 
-// for(let i = 0; i < array4.length; i++){
-//     sum += array4[i]
+// for(let i = 100; i > 0; i--){
+//     console.log(i)
+// } // ეს ლუპის შემთხვევაში
+// let arr = [];
+// for(let i = 100; i > 0; i--){
+//     arr.push(i)
 // }
 
-// console.log(sum / array4.length);
+// console.log(arr); // ეს ერეის შემთხვევაში
 
 
 
-// let users = [
-//     { username: 'giorgi', status: false },
-//     { username: 'levani', status: false },
-//     { username: 'anna', status: true }
-// ]
 
-// for (let i = 0; i < users.length; i++) {
-//     if (users[i].status === true) {
-//         console.log(users[i])
-//     }
-// }
+// let array = [2, 15, 10, 24];
+// array.splice(2, 1)
+
+// console.log(array);
+
+
+
+
+// let array = [12, 25, 3, 6, 8, 14, 7, 23];
+// let array1 = array.map(e => {
+//     return e / 3
+// })
+
+// console.log(array1)
+
+
+
+
+// let languages = ['html', 'css', 'javascript', 'python', 'php'];
+// let languages1 = languages.filter(e => {
+//     return e.length > 3
+// })
+
+// console.log(languages1)
+
+
+
+
+
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+// let arr3 = [5, 6];
+// let arr4 = arr1.concat(arr2, arr3)
+
+// console.log(arr4);
+
+
+
+
+// let arr = [-1, -2, -3, 4];
+// let arr1 = arr.some(e => {
+//     return e > 0
+// })
+
+// console.log(arr1)
+
+
+
+
+// let array = [23, 45, 32, 5, 87, 7, 3, 98];
+// let array1 = array.sort((a, b) => {
+//     return b - a
+// })
+
+// console.log(array1.slice(-1))
+
+
+
+
+
+// ბოლო დავალებას გაკვეთილზე ავხსნი, რომელი კონსოლი რას აკეთებს
