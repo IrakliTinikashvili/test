@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Project
+        </title>
+        <link rel="stylesheet" href="myProject.css">
+    </head>
+    <body>
+        <div class="calculator__form">
+            <div>
+                <div class="display__view">
+                    <div id="display" class="inner__display"></div>
+                </div>
+                <div style="background-color: white;">
+                    <div class="symbols__in__raw ">
+                        <button class="buttons" onclick = "mathOperations('%')">%</button>
+                        <button class="buttons" onclick = "clearAll()">c</button>
+                        <button class="buttons" onclick = "mathOperations('÷')">÷</button>
+                        <button class="buttons" onclick = "mathOperations('x')">x</button>
+                    </div>
+                    <div class="symbols__in__raw">
+                        <button class="buttons numbers">7</button>
+                        <button class="buttons numbers">8</button>
+                        <button class="buttons numbers">9</button>
+                        <button class="buttons numbers">4</button>
+                    </div>
+                    <div class="symbols__in__raw">
+                        <button class="buttons numbers">5</button>
+                        <button class="buttons numbers">6</button>
+                        <button class="buttons numbers">1</button>
+                        <button class="buttons numbers">2</button>
+                    </div>
+                    <div class="symbols__in__raw">
+                        <button class="buttons numbers">3</button>
+                        <button class="buttons" onclick = "mathOperations('-')">-</button>
+                        <button class="buttons" onclick = "mathOperations('+')">+</button>
+                        <button class="buttons" onclick = "equality()">=</button>
+                    </div>
+                    <div class="symbols__in__raw">
+                        <button class="buttons numbers">0</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="myProject.js"></script>
+    </body>
+</html>
